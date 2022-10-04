@@ -6,56 +6,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">Is Triangle ?</a>
-        <a href="quiz.html">Triangle Quiz</a>
-        <a href="hypotenuse.html">Calculate hypotenuse </a>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun with Triangles</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline link">
+                <a class="link" href="/">Is Triangle?</a>
+            </li>
+            <li class="list-item-inline link">
+                <a class="link" href="quiz.html">Triangle Quiz</a>
+            </li>
+            <li class="list-item-inline link">
+                <a class="link" href="hypotenuse.html">Calculate hypotenuse </a>
+            </li>
+            <li class="list-item-inline link">
+                <a class="link" href="area.html">Area of Triangle </a>
+            </li>
+
+        </ul>
     </nav>
-    <h1>Triangle Quiz</h1>
-    <form action="" class="quiz-form">
-        <div class="question-container">
-            <p>What is the third angle for the triangle where angle1=45 and angle2 =45 ?</p>
+    <div class="center">
+        <h1>Triangle Quiz</h1>
+        <form action="" class="quiz-form font">
+            <div class="question-container">
+                <p>1 What is the third angle for the triangle where angle1=45 and angle2 =45 ?</p>
 
-            <label for="">
-                <input type="radio" name="question1" value="45"> 45
-            </label>
+                <label for="">
+                    <input type="radio" name="question1" value="45"> 45
+                </label>
 
-            <label for="">
-                <input type="radio" name="question1" value="40">40
-            </label>
+                <label for="">
+                    <input type="radio" name="question1" value="40">40
+                </label>
 
-            <label for="">
-                <input type="radio" name="question1" value="60">60
-            </label>
+                <label for="">
+                    <input type="radio" name="question1" value="60">60
+                </label>
 
-            <label for="">
-                <input type="radio" name="question1" value="90">90
-            </label>
+                <label for="">
+                    <input type="radio" name="question1" value="90">90
+                </label>
 
-        </div>
+            </div>
 
-        <div class="question-container">
-            <p>If a triangle has an angle of 90 .What is it name ?</p>
+            <div class="question-container">
+                <p>2 If a triangle has an angle of 90 .What is it name ?</p>
 
-            <label for="">
-                <input type="radio" name="question2" value="obtuse">Obtuse
-            </label>
+                <label for="">
+                    <input type="radio" name="question2" value="obtuse">Obtuse
+                </label>
 
-            <label for="">
-                <input type="radio" name="question2" value="acute">Acute
-            </label>
+                <label for="">
+                    <input type="radio" name="question2" value="acute">Acute
+                </label>
 
-            <label for="">
-                <input type="radio" name="question2" value="rightangle">Right Angled
-            </label>
-        </div>
-    </form>
+                <label for="">
+                    <input type="radio" name="question2" value="rightangle">Right Angled
+                </label>
+            </div>
+        </form>
 
-    <button id="submit-answer-btn">Submit Answers</button>
-    <div id="output"></div>
+        <button id="submit-answer-btn">Submit Answers</button>
+        <div id="output"></div>
+    </div>
+
     <script src="quiz.js"></script>
 </body>
 

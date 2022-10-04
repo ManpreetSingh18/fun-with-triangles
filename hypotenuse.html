@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav>
-        <a href="index.html">Is Triangle ?</a>
-        <a href="quiz.html">Triangle Quiz</a>
-        <a href="hypotenuse.html">Calculate hypotenuse </a>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun with Triangles</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline link">
+                <a class="link" href="/">Is Triangle?</a>
+            </li>
+            <li class="list-item-inline link">
+                <a class="link" href="quiz.html">Triangle Quiz</a>
+            </li>
+            <li class="list-item-inline link">
+                <a class="link" href="hypotenuse.html">Calculate hypotenuse </a>
+            </li>
+            <li class="list-item-inline link">
+                <a class="link" href="area.html">Area of Triangle </a>
+            </li>
+
+        </ul>
     </nav>
-    <h1>Calculate Hypotenuse</h1>
-    <label for=""> a=</label>
-    <input type="number" class="side-input">
 
-    <label for=""> b=</label>
-    <input type="number" class="side-input">
+    <div class="center font">
+        <h1>Calculate Hypotenuse</h1>
+        <div id="label-input-group">
+            <label for=""> a=</label>
+            <input type="number" class="side-input">
+        </div>
 
-    <button id="hypotenuse-btn">Calculate Hypotenuse</button>
-    <div id="output"></div>
+        <div id="label-input-group">
+            <label for=""> b=</label>
+            <input type="number" class="side-input">
+        </div>
+
+        <button id="hypotenuse-btn">Calculate Hypotenuse</button>
+        <div id="output"></div>
+    </div>
     <script src="hypotenuse.js"></script>
 </body>
+
 </html>

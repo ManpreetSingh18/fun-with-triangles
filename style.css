@@ -1,0 +1,60 @@
+
+body{
+    background-color: #34d15e;
+}
+/** Navigation **/
+.navigation{
+    background-color: #36C488;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+}
+.navigation .link{
+    color: white;  
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+/** Links **/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/** List **/
+.non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+ display:inline ;
+}
+
+/** Quiz **/
+.center{
+    text-align: center;
+    background-color: #34d15e;
+}
+.question-container{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#submit-answer-btn, #is-triangle-btn ,#hypotenuse-btn{
+    border: 3px solid black;;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+#label-input-group{
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.font{
+    font-size: large;
+}
