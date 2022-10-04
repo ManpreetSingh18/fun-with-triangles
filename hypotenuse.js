@@ -12,6 +12,14 @@ function calculateSumOfSquares(a,b){
     //console.log(sumOfSquares);
 }
 function calculateHypotenuse(){
+    var a=Number(sides[0].value);
+    var b=Number(sides[1].value);
+    console.log(a);
+    console.log(b);
+    if( a <=0 || b<= 0){
+        outputEl.innerText="Please Enter value above 0";
+        return;
+    }
     const sumOfSquares=calculateSumOfSquares(Number(sides[0].value),Number(sides[1].value));
     
     const lengthOfHypotenuse =Math.sqrt(sumOfSquares);
